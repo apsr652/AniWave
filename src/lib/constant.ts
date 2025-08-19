@@ -12,6 +12,11 @@ export const ANIMATION_CONFIG = {
 } as const;
 
 export const ANIME_TITLES: AnimeTitle[] = [
+  {
+    id: "attackOnTitan",
+    displayName: "Attack on Titan",
+    sound: "/attack-on-titan.mp3",
+  },
   { id: "bleach", displayName: "Bleach", sound: "/bleach.mp3" },
   {
     id: "demonSlayer",

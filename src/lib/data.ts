@@ -5,6 +5,11 @@ export type AnimeSceneEntry = {
   rotate: number;
 };
 
+import attackOnTitan1 from "/attack-on-titan-1.gif";
+import attackOnTitan2 from "/attack-on-titan-2.gif";
+import attackOnTitan3 from "/attack-on-titan-3.gif";
+import attackOnTitan4 from "/attack-on-titan-4.gif";
+import attackOnTitan5 from "/attack-on-titan-5.gif";
 // Bleach (5 GIFs)
 import bleach1 from "/bleach-1.gif";
 import bleach2 from "/bleach-2.gif";
@@ -38,6 +43,13 @@ import spiritedAway4 from "/spirited-away-4.gif";
 import spiritedAway5 from "/spirited-away-5.gif";
 
 export const data: Record<string, AnimeSceneEntry[]> = {
+  attackOnTitan: [
+    { src: attackOnTitan1, offsetX: -420, offsetY: -110, rotate: -5 },
+    { src: attackOnTitan2, offsetX: 50, offsetY: -200, rotate: 4 },
+    { src: attackOnTitan3, offsetX: 450, offsetY: 20, rotate: 10 },
+    { src: attackOnTitan4, offsetX: -250, offsetY: 230, rotate: -3 },
+    { src: attackOnTitan5, offsetX: 500, offsetY: 250, rotate: -6 },
+  ],
   bleach: [
     { src: bleach1, offsetX: -460, offsetY: -200, rotate: -8 },
     { src: bleach2, offsetX: -200, offsetY: -300, rotate: 2 },
@@ -58,7 +70,6 @@ export const data: Record<string, AnimeSceneEntry[]> = {
     { src: yourName4, offsetX: 200, offsetY: 220, rotate: 6 },
   ],
   hunterXHunter: [
-    
     { src: hxh1, offsetX: -420, offsetY: -110, rotate: -5 },
     { src: hxh2, offsetX: 50, offsetY: -200, rotate: 4 },
     { src: hxh3, offsetX: 450, offsetY: 20, rotate: 10 },
